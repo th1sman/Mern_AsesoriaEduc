@@ -1,4 +1,4 @@
-import * as api from '../../api/'
+import * as api from '../../api/index.js'
 
 // Action creators 
 export const getPosts = () =>  async (dispatch) => {
@@ -9,5 +9,4 @@ export const getPosts = () =>  async (dispatch) => {
     } catch (err) {
         console.error(err)
     }
-    dispatch(action)
 }

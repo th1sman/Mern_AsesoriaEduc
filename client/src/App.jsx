@@ -8,7 +8,7 @@ import Form from './Components/Form/Form'
 import asesoriaeduc from './Components/Images/asesoriaeduc.png'
 import useStyles from './styles'
 
-function App() {
+const App = () => {
 
   const classes = useStyles()
   const dispatch = useDispatch()

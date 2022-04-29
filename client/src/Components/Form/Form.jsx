@@ -7,9 +7,7 @@ import { TextField, Button, Typography, Paper } from '@material-ui/core'
 
 const Form = () => {
 
-    const [postData, setPostData ] = useState({
-        
-    })
+    const [postData, setPostData ] = useState({    creator: '', title: '', tags: '', selectedFile: ''})
 
     const handleSubmit = () => {
 
@@ -27,7 +25,7 @@ const Form = () => {
                     label="Creator"
                     fullWidth
                     value={postData.creator}
-                    onChange={}>
+                    onChange={(e) => setPostData({ ...postData, creator: e.target.value })}>
 
                 </TextField>
             </form>

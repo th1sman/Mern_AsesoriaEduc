@@ -1,3 +1,11 @@
+#2Call
+.env
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
 # Build and Release Folders
 bin-debug/
 bin-release/
